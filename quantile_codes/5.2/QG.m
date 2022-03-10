@@ -5,7 +5,7 @@ for k=1:K
     rho = 1/k^(b1);
     delta = 1/k^(b2);
     n = floor(k^(b3));
-    R=gprnd(2,2,1,[1,n]);
+    R=gprnd(1,1,1,[1,n]);
     Z=p*min(x,R)-c*x;
     [~,index] = sort(Z);
     RR = R(index(floor(n*alpha)+1));
@@ -13,11 +13,11 @@ for k=1:K
     A2 = p*min((x-delta),RR)-c*(x-delta);
     D = (A1-A2)/(2*delta);
     x = x + cc*rho*D;
-    if x < 400
-        x = 400;
+    if x < 20
+        x = 20;
     end
-    if x > 800
-        x = 800;
+    if x > 80
+        x = 80;
     end
 end
 end
