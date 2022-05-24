@@ -66,7 +66,7 @@ Get into folder `\5.4`. Run `SASA33.m` for *SQO* in Hu et al. (2022, §5.3). Run
 * Set corresponding parameters and choose different gradient estimators for all policies in folder `\5.4`.
 * The compared policies, *QG* is implemented by `QG3.m`.
 * Run `BIC1.m` for Bayesian information criterion (BIC) value of the diffusion model for the real data experiment in HU et al. (2022, Appendix). Run `BIC2.m` for Bayesian information criterion (BIC) value of the jump-diffusion model for the real data experiment in HU et al. (2022, Appendix).
-* See two datasets `^HSI.csv` and `^GSPC.csv` for the real data experiment in HU et al. (2022 Appendix).
+* See two datasets `^HSI.csv` and `^GSPC.csv` for the real data experiment in HU et al. (2022, Appendix).
 
 ## References
 
