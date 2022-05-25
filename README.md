@@ -25,8 +25,8 @@ The function `\quantile_codes\5.3\QG.m` is a compared policy from Kibzun and Mat
 The function `\quantile_codes\5.3\quad2.m` is a function to solve quadratic programming.
 * `\quantile_codes\5.4`, contains codes for numerical experiments in Hu et al. (2022, §5.4).
 The function `\quantile_codes\5.4\QG3.m` is a compared policy from Kibzun and Matveev (2012).
-The function `\quantile_codes\5.4\BIC1.m` is a function to solve Bayesian information criterion (BIC) value of the diffusion model for the real data experiment in HU et al. (2022, Appendix).
-The function `\quantile_codes\5.4\BIC2.m` is a function to solve Bayesian information criterion (BIC) value of the jump-diffusion model for the real data experiment in HU et al. (2022, Appendix).
+The function `\quantile_codes\5.4\BIC1.m` is a function to solve Bayesian information criterion (BIC) value of the diffusion model for the real data experiment in HU et al. (2022, Appendix H.2).
+The function `\quantile_codes\5.4\BIC2.m` is a function to solve Bayesian information criterion (BIC) value of the jump-diffusion model for the real data experiment in HU et al. (2022, Appendix H.2).
 
 ## 2 Installation
 
@@ -61,12 +61,12 @@ Get into folder `\5.3`. Run `SASA11.m` for *SQO* in Hu et al. (2022, §5.3).
 
 ### 3.4 Numerical Experiments in Hu et al. (2021, §5.4)
 
-Get into folder `\5.4`. Run `SASA33.m` for *SQO* in Hu et al. (2022, §5.3). Run `SASA.m` for *SQO* in the real data experiment in HU et al. (2022, Appendix).
+Get into folder `\5.4`. Run `SASA33.m` for *SQO* in Hu et al. (2022, §5.3). Run `SASA.m` for *SQO* in the real data experiment in HU et al. (2022, Appendix H.2).
 
 * Set corresponding parameters and choose different gradient estimators for all policies in folder `\5.4`.
 * The compared policies, *QG* is implemented by `QG3.m`.
-* Run `BIC1.m` for Bayesian information criterion (BIC) value of the diffusion model for the real data experiment in HU et al. (2022, Appendix). Run `BIC2.m` for Bayesian information criterion (BIC) value of the jump-diffusion model for the real data experiment in HU et al. (2022, Appendix).
-* See two datasets `^HSI.csv` and `^GSPC.csv` for the real data experiment in HU et al. (2022, Appendix).
+* Run `BIC1.m` for Bayesian information criterion (BIC) value of the diffusion model for the real data experiment in HU et al. (2022, Appendix H.2). Run `BIC2.m` for Bayesian information criterion (BIC) value of the jump-diffusion model for the real data experiment in HU et al. (2022, Appendix H.2).
+* See two datasets `^HSI.csv` and `^GSPC.csv` for the real data experiment in HU et al. (2022, Appendix H.2).
 
 ## References
 
