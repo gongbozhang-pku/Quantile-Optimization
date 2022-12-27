@@ -2,7 +2,7 @@
 
 This repository contains the source codes used in the following paper:
 
-* A Stochastic Approximation Method for Simulation-Based Quantile Optimization, Jiaqiao Hu, Yijie Peng<sup>*</sup>, Gongbo Zhang, Qi Zhang (2022) Accepted in *INFORMS Journal on Computing*.
+* A Stochastic Approximation Method for Simulation-Based Quantile Optimization, Jiaqiao Hu, Yijie Peng<sup>*</sup>, Gongbo Zhang, Qi Zhang (2022) Accepted in *INFORMS Journal on Computing*, DOI: 10.1287/ijoc.2022.1214.
 
 ### Disclaimer
 
